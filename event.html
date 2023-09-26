@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-npFqGJ4a7++5fPntw+R2aCXvC1Fz9e2stMw1QDLzvysL3GAt7zjrP5fB+z5eqLX/6e7b0E51YqXunl5VKhk8eg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page</title>
+</head>
+<body>
+    <section>
+        <div class="logo">
+            <img src="3.png" alt="logo">
+        </div>
+        <div class="navbar">
+            <a href="profile.html">Profile</a>
+            <a href="Service.html">Services</a>
+            <a href="overview.html">Overview</a>
+            <a href="payment.html">Payment</a>
+            <a href="alerts.html">Alerts</a>
+        </div>  
+    </section>
+    <section>
+        <div class="profile-container">
+            <div class="profile-left">
+                <div class="profile-pic">
+                    <img src="https://i.pinimg.com/474x/ba/0d/53/ba0d53f2945b995c5b95b32f1a7bead8.jpg" alt="Profile Picture">
+                </div>
+                <div class="username">S_Gojo</div>
+                <div class="user-info">
+                    <p>First Name: Satoru</p>
+                    <p>Last Name: Gojo</p>
+                    <p>Email: gojosatoru@example.com</p>
+                    <p>Phone Number: (123) 456-7890</p>
+                    <p>Address: 123 Main Street, Shibuya, Japan</p>
+                </div>
+            </div>
+            <div class="event-form">
+                <h1>Event Registration</h1>
+                <form>
+                    <label for="eventName">Event Name:</label>
+                    <input type="text" id="eventName" name="eventName" required>
+                    <label for="eventDateTime">Date and Time:</label>
+                    <input type="datetime-local" id="eventDateTime" name="eventDateTime" required>
+                    <label for="eventLocation">Location:</label>
+                    <input type="text" id="eventLocation" name="eventLocation" required>
+                    <label for="serviceDays">No. of Days of Service:</label>
+                    <input type="number" id="serviceDays" name="serviceDays" required>
+                    <label for="collectorsNeeded">No. of Collectors Needed:</label>
+                    <input type="number" id="collectorsNeeded" name="collectorsNeeded" required>
+                    <label for="wasteEstimation">Waste Estimation:</label>
+                    <input type="text" id="wasteEstimation" name="wasteEstimation" required>
+                    <label for="eventDescription">Brief Description:</label>
+                    <textarea id="eventDescription" name="eventDescription" rows="4" required></textarea>
+                    <button type="button" class="button">Clear</button>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

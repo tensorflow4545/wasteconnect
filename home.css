@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(homepage_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    float: left;
+    display: flex;
+    padding: auto;
+    height: 50px;
+    width: 50px;
+    padding-left: 2%;
+    padding-top: 10px;
+}
+
+.main{
+    background-color: transparent;
+}
+
+.homeimg{
+    float: right;
+    display: flex;
+    padding-top: 100px;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: transparent; /* Transparent background with 50% opacity */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #36494e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #54c4c7;
+}
+
+.button {
+    padding: 12px 30px;
+    background-color: #54c4c7;
+    color: #c4f4fc;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #36494e;
+}
+
+.text{
+    padding-top: 7%;
+    padding-left: 4%;
+    color: #54c4c7;
+    background: transparent;
+    background-color: transparent;
+    padding-right: 2%;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.heading{
+    font-size : 50px;    
+    color: #36494e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subheading{
+    font-size: 20px;
+    color: #54c4c7;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.social{
+    color: #36494e;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    padding-left: 4%;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Report.css">
+    <title>Report</title>
+</head>
+<body>
+    <section>
+        <div class="logo">
+            <img src="3.png" alt="logo">
+        </div>
+        <div class="navbar">
+            <a href="profile.html">Profile</a>
+            <a href="Service.html">Services</a>
+            <a href="overview.html">Overview</a>
+            <a href="payment.html">Payment</a>
+            <a href="alerts.html">Alerts</a>
+        </div> 
+    </section>
+    <section>
+        <div class="report-container">
+            <div class="report-left">
+                <img src="https://www.tatapower.com/images/box4-img.png" alt="Waste Management Image">
+            </div>
+            <div class="report-right">
+                <h1>Report</h1>
+                <form>
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" name="location" required>
+                    <label for="serviceDetails">Service Details:</label>
+                    <textarea id="serviceDetails" name="serviceDetails" rows="4" required></textarea>
+                    <label for="uploadImage">Upload Image:</label>
+                    <input type="file" id="uploadImage" name="uploadImage" accept="image/*" required>
+                    <div class="report-buttons">
+                        <button class="button-discard">Discard</button>
+                        <button class="button-report">Report</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

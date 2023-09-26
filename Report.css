@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(homepage_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    float: left;
+    display: flex;
+    padding: auto;
+    height: 50px;
+    width: 50px;
+    padding-left: 2%;
+    padding-top: 10px;
+}
+
+.navbar {
+    background-color: transparent; /* Transparent background with 50% opacity */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #36494e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #54c4c7;
+    border-radius: 50px;
+}
+
+.report-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.report-left {
+    width: 30%;
+    background-color: transparent;
+    border-radius: 10px;    
+    padding: 20px;
+}
+
+.report-left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.report-right {
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000033;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+.report-right label {
+    font-weight: bold;
+}
+
+.report-right input[type="text"],
+.report-right input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.report-right textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.report-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.report-buttons button {
+    padding: 12px 30px;
+    background-color: #54c4c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button-discard:hover{
+    background-color: #36494e;
+}
+
+.button-report:hover{
+    background-color: #36494e;
+}
