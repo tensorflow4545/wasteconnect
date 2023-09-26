@@ -45,6 +45,8 @@ body {
     display: flex;
     align-items: flex-start;
     padding: 20px;
+    padding-top: 80px;
+    opacity: 0.8;
 }
 
 .alerts-left {

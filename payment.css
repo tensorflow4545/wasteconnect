@@ -38,6 +38,7 @@ body {
 
 .navbar a:hover {
     color: #54c4c7;
+    border-radius: 50px;
 }
 
 .profile-container {
@@ -88,6 +89,37 @@ body {
     margin: 5px 0;
 }
 
+.event-form {
+    width: 500px;
+    padding-left: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    opacity: 0.8;
+    color: #36494e;
+}
+
+.event-form label {
+    font-weight: bold;
+}
+
+.event-form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.event-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
 .button {
     padding: 12px 30px;
     background-color: #54c4c7;
@@ -103,3 +135,15 @@ body {
 .button:hover{
     background-color: #36494e;
 }
+
+.bottom-image img {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+.separator {
+    width: 5px;
+    background-color: #ccc;
+    margin-right: 5px; /* Space between left and right boxes */
+}
+
